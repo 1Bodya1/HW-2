@@ -1,0 +1,43 @@
+/*ПЕРШЕ ЗАВДАННЯ*/
+/*третій приорітет*/
+#quote{
+color: blue;
+
+ }
+
+/*ДРУГЕ ЗАВДАННЯ*/
+ a[href^="https"] {
+  color: #f00;
+}
+a[href^="http://"] {
+  color: #ff8d00;
+} 
+ul + p { 
+  font-size: 26px;
+}
+a[title] {
+  border: 1px solid #067b09;
+}
+
+/*ТРЕТЄ ЗАВДАННЯ*/
+.text-box h3 {
+  color: pink;
+}
+#greycol{
+  color: grey;
+}
+.text-box div ~ h3 {
+  color: initial;
+}
+.text-box div p{
+  color: red;
+}
+.text-box h3[title="text"]{
+color: blue;
+}
+.text-box div ~ p {
+  color: green;
+}
+.text-box .yellow{
+  color: yellow;
+}
